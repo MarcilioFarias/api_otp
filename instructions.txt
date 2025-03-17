@@ -1,0 +1,17 @@
+Rota de login:
+    - recebe o email
+    - gera um codigo, salva o codigo no banco
+    - envia o codigo para email
+
+Pagina de codigo:
+    - Rota de validacao de OTP:
+        valida os dados
+        - invalida o codigo
+        - cria o hash de login (JWT)
+
+Rota de Cadastro
+    - nome e email
+    - faz o processo de Cadastro
+
+Stack: 
+    node - prisma - jwt - zod - mailtrap
